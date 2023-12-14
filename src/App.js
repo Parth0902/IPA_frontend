@@ -7,6 +7,7 @@ import Navbar from './Components/Navbar';
 import Slider from './Components/Slider'
 import Featured from './Components/Featured';
 import AboutUs from './Components/AboutUs';
+import OurTeam from './Components/OurTeam';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <Slider/>
       <Featured/>
       <AboutUs/>
+      <OurTeam/>
     </div>
   );
 }

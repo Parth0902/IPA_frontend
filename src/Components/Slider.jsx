@@ -8,7 +8,7 @@ import { Autoplay, Pagination, Navigation } from 'swiper/modules';
 
 export default function Silder() {
   return (
-    <div className='w-screen' style={{height:"50vh"}}>
+    <div className='w-screen z-0 mt-24' style={{height:"50vh"}}>
       <Swiper
         spaceBetween={30}
         centeredSlides={true}
