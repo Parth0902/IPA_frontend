@@ -16,7 +16,7 @@ const Navbar = () => {
       <div className='w-full flex flex-col gap-10 justify-between items-center lg:flex-row  lg:justify-center xl:gap-7'>
         <div className='flex flex-1 w-full items-center gap-3'>
                 <img src={Logo} alt="" className='h-20'/>     
-                 <h1 className='font-Heading text-2xl'>IPA EDUCATION ACADEMY</h1>              
+                 <h1 className='text-2xl font-semibold'>IPA EDUCATION ACADEMY</h1>              
         </div>
 
         <div className='hidden lg:flex gap-5 items-center  flex-1'>

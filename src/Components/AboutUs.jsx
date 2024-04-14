@@ -3,24 +3,25 @@ import React from 'react'
 
 const AboutUs = () => {
   return (
-    <div className='bg-gray-100 flex flex-col gap-20 '>
-      <h1 className='text-center font-Heading text-5xl py-10'>About Us</h1>
-      <div className='flex justify-center gap-16 flex-wrap pb-20'>
-        <div className='flex-1 flex justify-end'>
-          <div className=' bg-gray-400' style={{width:"428px",height:"420px"}}> 
-            <img src="https://ipafootcare.org/IPA-ADMIN/about/about.png" style={{width:"428px"}} className=" relative bottom-4 right-4" alt="" />
-          </div>
+    <section class="text-gray-600 body-font">
+    <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
+      <div class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+        <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-gray-900">About US
+        </h1>
+        <p class="mb-2 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
+        <p class="mb-2 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
+        <p class="mb-2 leading-relaxed">Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.</p>
+
+        <div class="flex justify-center mt-10">
+          {/* <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button> */}
+          <button class="inline-flex text-white bg-black border-0 py-2 px-6 focus:outline-none hover:bg-gray-200  hover:text-black rounded text-lg transition-all">Learn More</button>
         </div>
-        <div className='flex-1 flex flex-col gap-10 justify-start'>
-          <p className='w-2/3 font-SubHeading text-xl text-justify leading-8'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim quae tenetur officiis, fugit quo in praesentium quia, harum ipsam ducimus voluptates dolor laudantium voluptatibus rerum eligendi? Corrupti sed totam nostrum illo necessitatibus nemo adipisci assumenda, distinctio accusantium molestiae fugiat voluptatem eius ducimus cupiditate ea. Blanditiis aliquam nam aliquid rem dicta!</p>
-          <p className='w-2/3 font-SubHeading text-xl text-justify leading-8'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim quae tenetur officiis, fugit quo in praesentium quia, harum ipsam ducimus voluptates dolor </p>
-          <div>
-            <button className='bg-black color white px-7 py-3 text-white rounded-lg'>Contact Us</button>
-          </div>
-        </div>
-       
+      </div>
+      <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+        <img class="object-cover object-center rounded" alt="hero" src="https://dummyimage.com/720x600"/>
       </div>
     </div>
+  </section>
   )
 }
 

@@ -8,6 +8,10 @@ import Slider from './Components/Slider'
 import Featured from './Components/Featured';
 import AboutUs from './Components/AboutUs';
 import OurTeam from './Components/OurTeam';
+import Testimonials from './Components/Testimonials';
+import Footer from './Components/Footer';
+import TredingCourses from './Components/TredingCourses';
+
 
 function App() {
   return (
@@ -16,7 +20,10 @@ function App() {
       <Slider/>
       <Featured/>
       <AboutUs/>
+      <TredingCourses/>
       <OurTeam/>
+      <Testimonials/>
+      <Footer/>
     </div>
   );
 }
